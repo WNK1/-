@@ -1,0 +1,103 @@
+body{
+    background-color:rgb(31, 31, 31);
+    height: 300vh;
+}
+
+
+
+.header {
+    .header__container {
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .header__text-broder {
+            margin-top: 50px;
+            border: 5px solid rgb(0, 0, 0);
+            .header__matreshka {
+                border: 5px solid red;
+                .header__main {
+                    padding: 5px 15px;
+                    background-color: aliceblue;
+                    color: black;
+                    border: 5px solid goldenrod;
+                    width: 300px;
+                    height: 240px;
+                    overflow: auto;
+        
+                }
+            }
+          
+        }
+        .first-batton {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: orange;
+            color: black;
+            border-radius: 15px;
+        
+           
+        }
+        .header__links-prevent-default {
+            margin-top: 20px;
+            .prevent-default__link a{
+                color: yellow;
+                text-decoration: none;
+                &:visited {
+                    color:pink;
+                }
+                &:hover{
+                    color: aquamarine;
+                }
+               
+            }
+        }
+        .block__cord {
+            margin-top:50px;
+
+            .coord {
+                display: flex;
+                justify-content: center;
+                width:200px;
+                height: 200px;
+                background-color: white;
+                .coord__text{
+                    color: orange;
+                    text-align: center;
+                    margin-top: 50px;
+                }
+              
+            }
+        }
+        .delegirovaie {
+            display: flex;
+            justify-content: center;
+            .delegitovanie__block {
+                color: orange;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 200px;
+                height: 200px;
+                background-color: rgb(134, 4, 134);
+                & li{
+                    list-style-type: none; 
+                }
+                & ul{
+                    margin: 0px;
+                    padding: 0px;
+                    display: flex;
+                    justify-content: center;
+                }
+                .li1 {
+                    margin: 5px;
+                    padding: 5px;
+                }
+
+        
+            }
+        }
+    }  
+}
