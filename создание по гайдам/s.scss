@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    color: whitesmoke;
+
+}
+
+
+
+.all-wraper-container {
+    .header {
+        .header-container {
+        }
+    }
+   
+    .main {
+        .main-container {
+            display: flex;
+            width: 90%;
+            flex-direction: column;
+            margin: 0px auto;
+            margin-top: 25px;
+            justify-content: center;
+            align-items: center;
+            .animation-text {
+                width: 55ch;
+                height: 100%;
+                font-size: 2em;
+                font-family: monospace;
+                border-right: 2px solid greenyellow;
+                overflow: hidden;
+                white-space: nowrap;
+                animation: typing 12s steps(55) infinite ,
+                    blink_sideLine 8s infinite step-end alternate ; 
+            }
+        
+            @keyframes typing{
+                0%, 100%{
+                    width: 0%;
+                    
+                }
+                50%{
+                    width: 55ch;
+                    
+                }  
+            }
+            @keyframes blink_sideLine{
+
+            }
+
+            .animation-card {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                .first {
+                }
+                .second {
+                }
+                .threed {
+                }
+            }
+          
+
+
+        }
+    }
+ 
+    .animation-text {
+    }
+    .footer {
+        .footer-container {
+        }
+    }
+    
+}
