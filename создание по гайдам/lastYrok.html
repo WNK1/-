@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Последний урок - события / формы </title>
+    <link rel="stylesheet" href="last.css">
+</head>
+<body>
+    <h1> JS и формы </h1>
+
+    <main class="main">
+        <div class="main__container">
+            <div class="left-block">
+            <form>
+                <div class="name-block">
+                    <p>Ваше имя </p>
+
+                    <input type="text" id="input" name="input" required
+                    minlength="6" maxlength="12"/>
+                </div>
+                
+                
+                    <div class="textarea-block">
+                        <p>Дополните информацию о себе</p>
+                        <textarea class="textarea1"  name="info" id="info-pole-1" rows="10" cols="50"></textarea>
+                    </div>
+            </form>
+                
+            </div>
+
+
+            <div class="right-block">
+                <form name="bur">
+                    <p class="p1-radioBlock">Радио кнопки</p>
+                    <div class="radio__block1">
+
+                        <input type="radio" id="first" name="who" value="1">
+                        <label for="who-is-it">1</label>
+
+                        <input type="radio" id="second" name="who" value="2">
+                        <label for="who-is-it">2</label>
+                        
+                    </div>
+                    <div class="checkbox-button">
+                        <input type="checkbox" id="checkbox-button" name="checkbox-button"  value="2">
+                        <label for="checkbox-button">кнопка чекбокс </label>
+                        
+                    </div>
+                    <div class="chose-youre-file">
+                        <p>Прикрепить файл</p>
+                        <button>выбрать файл</button>
+                    </div>
+                    <div class="list">
+                        <p> Список </p>
+                        <select>
+                            <option value="1">first</option>
+                            <option value="2">second</option>
+                            <option value="3">threed</option>
+                        </select>
+                        
+                        
+                    </div>
+                </form>
+
+            </div>
+
+            
+        </div>
+        
+    </main>
+
+
+
+
+
+    <footer class="footer">
+
+    </footer>
+    
+    <script src="last.js"></script>
+</body>
+</html>

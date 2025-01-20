@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: greenyellow;
+    h1{
+        margin-left: 20px;
+    }
+}
+
+
+.main {
+    .main__container {
+        display: flex;
+        .left-block {
+            width: 55%;
+            margin-left: 20px;
+            .name-block{
+                margin-top: 30px;
+            }
+           .textarea-block {
+            margin-top: 96px;
+        }
+           
+
+        }
+        .right-block {
+            margin-top: 20px;
+            width: 45%;
+            
+            .p1-radioBlock {
+                
+            }
+            .radio__block1 {
+                
+            }
+            .checkbox-button {
+                margin-top: 50px;
+            }
+            .chose-youre-file {
+                margin-top: 50px;
+            }
+            .list {
+                margin-top: 50px;
+            }
+        }
+     
+    }
+
+}
+
+
+.footer {
+}
